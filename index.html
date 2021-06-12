@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   <h1 id="titulo">Jogo da Forca</h1>
+   <h2 id="titulo">Tema: Tecnologias</h2>
+   <div class="quadrado">
+      <div class="quadrado2">
+ 
+      </div>
+      <div class="quadrado3">
+         <input type="text" id="escolha-letra" autofocus maxlength="1">
+         <button id="botao-envia" onclick="jogar()">Jogar</button>
+      </div>
+
+      <div class="jogadas-recomecar">
+         <p id="letras-jogadas">Letras que você errou: </p>
+         <button id="botao-recomeca" onclick="recomecar()">Recomeçar</button>
+      </div>
+   </div>
+
+
+   <div class="div"></div>
+
+   <script src="index.js"></script>
+</body>
+</html>
